@@ -35,3 +35,13 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+gitalk:
+  enable: true
+  owner: RickerBlog
+  admin: RickerBlog
+  repo: Ricker
+  ClientID: 161c30435850f7a3d109
+  ClientSecret: 6cdc015684af798cfd102e976f582ba7779c2e63
+  labels: 'gitalk'
+  distractionFreeMode: true
