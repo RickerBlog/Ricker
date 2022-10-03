@@ -8,7 +8,7 @@
         repo: 'Ricker',
         owner: 'RickerBlog',
         admin: 'RickerBlog',
-        id: location.pathname,
+        id: md5(location.pathname),
         distractionFreeMode: true
     }).render('gitalk-container')
 </script>
