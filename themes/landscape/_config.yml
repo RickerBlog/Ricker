@@ -41,7 +41,7 @@ gitalk:
   owner: RickerBlog
   admin: RickerBlog
   repo: Ricker
-  ClientID: 161c30435850f7a3d109
-  ClientSecret: 6cdc015684af798cfd102e976f582ba7779c2e63
+  ClientID: c55e50af4a9e3ea6cdc3
+  ClientSecret: 01d9f3bde5142878b0f9bc015273a6cf3f1188d7
   labels: 'gitalk'
   distractionFreeMode: true
