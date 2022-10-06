@@ -1,3 +1,4 @@
+<div class="postpage">
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
   <div class="article-meta">
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
@@ -46,4 +47,5 @@
 <h1 class="article-title">Comment|评论</h1>
 tips:如果你想评论，那就翻到该文章最低处|If you want to comment, go to the bottom of this post
 <%- include post/utteranc.ejs %>
+</div>
 </div>
