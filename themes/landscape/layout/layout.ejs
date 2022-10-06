@@ -4,7 +4,7 @@
     <div id="wrap">
       <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
       <div class="outer">
-        <section id="main"><div style="clip:rect(0px auto 300px 0px);"><%- body %></div></section>
+        <section id="main"><%- body %></section>
         <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
           <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
         <% } %>
